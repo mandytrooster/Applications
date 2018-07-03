@@ -12,6 +12,7 @@ client.connect();
 
 router.use(bodyParser.urlencoded({extended: false}));
 router.use(bodyParser.json());
+//test
 
 router.post('/', function(req, res) {
   var score = req.body.score;
